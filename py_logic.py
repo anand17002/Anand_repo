@@ -123,7 +123,7 @@ def swapList(lst):
 newList = [23,34,23,54]
 print(swapList(newList))
     
-"""
+
 
 # lenth of list using counter
 test_list = [10,20,30,23,65]
@@ -137,9 +137,17 @@ for i in test_list:
 
 print("Lenth of list using loop : " +str(counter))
 
+"""
 
 
+#using len meethod
 
+a =[]
+a.append("Hello")
+a.append("anand")
+a.append("how are u")
+a.append("doing")
+print("The lenth of list is: ", len(a))
 
 
 
